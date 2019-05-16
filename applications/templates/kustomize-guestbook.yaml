@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: kustomize-guestbook
-    repoURL: https://github.com/argoproj/argocd-example-apps
+    repoURL: https://github.com/anarcher/argocd-example-apps
     targetRevision: {{ .Values.spec.source.targetRevision }}
   syncPolicy:
     automated:
